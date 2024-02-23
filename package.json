@@ -1,0 +1,23 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "This is a dom manipulation project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumiak-mitch/restaurant_page.git"
+  },
+  "author": "Mitchel M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mumiak-mitch/restaurant_page/issues"
+  },
+  "homepage": "https://github.com/mumiak-mitch/restaurant_page#readme",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
