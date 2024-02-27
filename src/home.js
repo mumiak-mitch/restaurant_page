@@ -5,7 +5,9 @@ export function homePage() {
 
     const logo = document.createElement('img');
     logo.classList.add('logo');
-    logo.setAttribute('img', 'img/ornaments.jpg');
+    logo.setAttribute('src', 'img/ornaments.jpg');
+
+    console.log('img/ornaments.jpg', logo.getAttribute('src'));
 
     const homeText = document.createElement('div');
     let text = "Welcome to our restaurant, we are happy to be of service to you today. Enjoy."

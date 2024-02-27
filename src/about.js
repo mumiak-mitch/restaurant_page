@@ -5,7 +5,7 @@ export function aboutPage() {
 
     const logo = document.createElement('img');
     logo.classList.add('logo');
-    logo.setAttribute('img', 'img/ornaments.jpg');
+    logo.setAttribute('src', 'img/ornaments.jpg');
 
     const aboutTitle = document.createElement('div');
     aboutTitle.classList.add('about-title');

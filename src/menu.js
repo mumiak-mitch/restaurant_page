@@ -5,7 +5,7 @@ export function menuPage() {
     
     const logo = document.createElement('img');
     logo.classList.add('logo');
-    logo.setAttribute('img', './img/ornaments.jpg');
+    logo.setAttribute('src', 'img/ornaments.jpg');
 
     const menuContainer = document.createElement('div');
     menuContainer.classList.add('menu-container');
